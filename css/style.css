@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Raleway:400,600,700,800&display=swap');
+body{font-family: 'Montserrat', sans-serif;}
+.top-header {
+    padding: 4px 0;
+    background-color: #efefef;
+}
+.top-bitcoin-info {}
+.top-bitcoin-info p{color: #7f7f7f;
+font-size: 14px;
+margin-bottom: 0; }
+.top-menu{}
+.top-menu li{}
+.top-menu li a {
+    color: #7f7f7f;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 0;
+    padding-left: 25px;
+
+}
+.btn-custom {
+    background: #ff9b1a;
+    color: #fff !important;
+      font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+ .navbar-nav .nav-link {
+    font-size: 14px;
+    color: 161616;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 600;
+    color: black;
+}
+ .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+    background: #ff9b1a;
+}
+.navbar-toggler{margin-left: auto;
+margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid #1d1e1e;
+   
+    border-radius: 0;}
+.navbar-toggler span{    width: 39px;
+    height: 3px;
+    background: #1d1e1e;
+    display: block;
+    
+    -webkit-line-break: 14px;
+    margin: 6px 0;
+    }
+
+
+  .navbar{ padding: 24px 0;} 
+
+.banner-section {
+    background-color: #00000080;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+        background-attachment: fixed;
+}
+.banner-section .row{min-height: 600px;}
+.banner-content{font-family: 'Raleway', sans-serif;}
+.banner-content h1 {
+    color: white;
+    font-size: 51px;
+    font-weight: 700;
+}
+.banner-content ul{}
+.banner-content ul li {
+    margin: 28px 16px;
+}
+.banner-content ul li strong {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    display: block;
+}
+.banner-content ul li span {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+.banner-content a .btn-custom{}
+
+
+.banner-content a.btn-outline-light{margin-left: 20px;}
+
+.banner-content a.btn-outline-light:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    background: #FF9B1A;
+}
+
+
+
+
+.service1{text-align: center;
+    padding: 26px 15px;
+position: relative;}
+.service1 i {
+    color: #ff9b1a;
+    position: relative;
+}
+.service1 h4{position: relative;}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+    font-size: 60px;
+   
+    margin-left:0;
+}
+.service1 p{position: relative;}
+.service1:hover i{
+	color:#fff;
+}
+.service1:hover {background-image: url(../images/blog1.png);
+color: #fff;
+
+
+}
+.service1:before{
+	content:"";
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fb7711+1,ddb212+100&0.72+1,1+100 */
+background: -moz-linear-gradient(top,  rgba(251,119,17,0.72) 1%, rgba(221,178,18,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(251,119,17,0.72) 1%,rgba(221,178,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(251,119,17,0.72) 1%,rgba(221,178,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8fb7711', endColorstr='#ddb212',GradientType=0 ); /* IE6-9 */
+
+
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+}
+.service1:hover:before{opacity:1; }
+
+
+
+
+
+
+
+
+.service2{text-align: center;
+    padding: 26px 15px;
+position: relative;}
+.service2 i {
+    color: #ff9b1a;
+    position: relative;
+}
+.service2 h4{position: relative;}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+    font-size: 60px;
+   
+    margin-left:0;
+}
+.service2 p{position: relative;}
+.service2:hover i{
+	color:#fff;
+}
+.service2:hover {background-image: url(../images/blog2.png);
+color: #fff;
+
+
+}
+.service2:before{
+	content:"";
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fb7711+1,ddb212+100&0.72+1,1+100 */
+background: -moz-linear-gradient(top,  rgba(251,119,17,0.72) 1%, rgba(221,178,18,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(251,119,17,0.72) 1%,rgba(221,178,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(251,119,17,0.72) 1%,rgba(221,178,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8fb7711', endColorstr='#ddb212',GradientType=0 ); /* IE6-9 */
+
+
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+}
+.service2:hover:before{opacity:1; }
+
+
+
+
+
+
+
+
+
+
+
+
+.service3{text-align: center;
+    padding: 26px 15px;
+position: relative;}
+.service3 i {
+    color: #ff9b1a;
+    position: relative;
+}
+.service3 h4{position: relative;}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+    font-size: 60px;
+   
+    margin-left:0;
+}
+.service3 p{position: relative;}
+.service3:hover i{
+	color:#fff;
+}
+.service3:hover {background-image: url(../images/blog3.png);
+color: #fff;
+
+
+}
+.service3:before{
+	content:"";
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fb7711+1,ddb212+100&0.72+1,1+100 */
+background: -moz-linear-gradient(top,  rgba(251,119,17,0.72) 1%, rgba(221,178,18,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(251,119,17,0.72) 1%,rgba(221,178,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(251,119,17,0.72) 1%,rgba(221,178,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8fb7711', endColorstr='#ddb212',GradientType=0 ); /* IE6-9 */
+
+
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+}
+.service3:hover:before{opacity:1; }
+
+
+.servic-content{position: relative;}
+.servic-content:after {
+    content: "";
+    width: 95px;
+    height: 5px;
+    background: #ff9b1a;
+    position: absolute;
+    margin-left: -42px;
+}
+.servic-content h2 {
+    text-transform: uppercase;
+    font-size: 31px;
+    font-weight: 400;
+}
+.servic-content p {
+    margin: 25px 0;
+   color: #5d5454e0;
+}
+
+
+
+.bitcoin-content{}
+
+.bitcoin-content .bitcoin-img{text-align: center;}
+.bitcoin-content p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #5d5454e0;
+}
+.bitcoin-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 800;
+}

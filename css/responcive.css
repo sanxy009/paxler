@@ -1,0 +1,22 @@
+
+@media(max-width: 1199px){ .navbar-nav .nav-link {
+   
+    font-size: 12px;
+   
+}}
+@media(max-width: 991px){ .navbar-nav .nav-link {
+  
+    display: inline-block;
+}
+.navbar-nav{text-align: center;}
+.navbar-nav li .btn-custom{display: none !important;}}
+@media(max-width: 767){}
+@media(max-width: 575px){.top-menu.li.a {
+
+    font-size: 12px;
+   
+    padding-right: 10px;
+    padding-left: 10px;
+}}
+  
+   
